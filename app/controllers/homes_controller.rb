@@ -1,4 +1,5 @@
 class HomesController < ApplicationController
-  def index
+	def index
+		@message = "Hello, Rails!"
   end
 end
