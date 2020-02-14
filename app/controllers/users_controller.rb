@@ -8,6 +8,10 @@ class UsersController < ApplicationController
 	def show
 	end
 
+	def create
+    User.create!(user_params)
+  end
+
 	def update
     @user.update!(user_params)
 	end
